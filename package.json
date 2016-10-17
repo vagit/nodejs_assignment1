@@ -9,6 +9,14 @@
     "watch:test": "nodemon --exec \"npm test || true\"",
     "watch:lint": "nodemon --exec \"npm run lint || true\""
   },
+  "bin" : {
+    "cli-echo" : "./echo.js",
+    "cli-cat" : "./cat.js",
+    "cli-touch" : "./touch.js",
+    "cli-ls" : "./ls.js",
+    "cli-mkdir" : "./mkdir.js",
+    "cli-rm" : "./rm.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/CrabDude/nodejs-clis.git"

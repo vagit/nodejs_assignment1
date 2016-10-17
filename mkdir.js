@@ -2,17 +2,20 @@
 
 require('./helper')
 let fs = require('fs').promise
+let path = require('path')
 
 
-async function mkdir() {
+async function mkdir(dirPath) {
+
+	let stat = await fs.stat
     
     if (process.argv.length < 3) {
       console.log('Miss arguments')
       process.exit(1)
     }
-    let filename = process.argv[2]
+    let dir = process.argv[2]
 
-    let file = fs.openSync(filename, 'r')
+    fs.mkdir(dir);
 }
 
 mkdir()

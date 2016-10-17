@@ -19,8 +19,6 @@ async function touch() {
 
     let fd = await fs.open(filename,'r',(err,data)=>{});
 
-    console.log(fd)
-
 	var now = Date.now()
 	fs.futimes(fd, new Date(), new Date(), function(err) {
 	});
