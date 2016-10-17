@@ -2,19 +2,19 @@
 
 This is a CLI Utilities library for Node.js.
 
-Time spent: `<Number of hours spent>`
+Time spent: 6
 
 ## Features
 
 ### Required
 
 - [x] Completed Requireds marked with `[x]`
-- [ ] Walkthrough Gif embedded in README
-- [ ] README `Time spent:` includes the number of hours spent on the assignment
-- [ ] `echo.js` prints the first argument to stdout
-- [ ] `cat.js` prints the contents of the first argument to stdout
-- [ ] `touch.js` updates the modified date of the first argument
-- [ ] `ls.js` recursively lists the files of the first argument
+- [x] Walkthrough Gif embedded in README
+- [x] README `Time spent:` includes the number of hours spent on the assignment
+- [x] `echo.js` prints the first argument to stdout
+- [x] `cat.js` prints the contents of the first argument to stdout
+- [x] `touch.js` updates the modified date of the first argument
+- [x] `ls.js` recursively lists the files of the first argument
 - [ ] `mkdir.js` create a directory at the first argument
 - [ ] `rm.js` deletes any file or directory at the first argument 
 
@@ -26,5 +26,4 @@ Time spent: `<Number of hours spent>`
 
 ## Walkthrough Gif:
 
-`<Add your Walkthrough Gif here (by updating the image URL)>`
-![Video Walkthrough](...)
+![alt text](https://github.com/vagit/nodejs_assignment1/blob/master/walkthrough.gif)
